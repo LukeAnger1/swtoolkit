@@ -1,0 +1,11 @@
+# IMPORTANT TODO: May not need this file and just need to update other files and run the below command
+# pip install .
+
+pip install --upgrade pip setuptools
+pip install wheel
+pip install pywin32
+pip install pytest
+pip3 install psutil
+
+# TODO: most likely the below is no longer needed as pywin32 takes care of it
+# pip3 install win32gui
