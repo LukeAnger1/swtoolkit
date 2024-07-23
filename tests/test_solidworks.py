@@ -64,6 +64,7 @@ def test_kill():
     if "SLDWORKS.exe" not in [p.name() for p in psutil.process_iter()]:
         SolidWorks.start()
     SolidWorks.kill()
+    # print(f'the running files are {[p.name() for p in psutil.process_iter()]}')
     assert "SLDWORKS.exe" not in [p.name() for p in psutil.process_iter()]
 
 
@@ -119,3 +120,19 @@ def test_get_model():
 
 def test_get_models():
     pass
+
+if __name__ == '__main__':
+    # Testing visibiliity
+    print(f'the visibility is {visibility_state()}')
+    # test start
+    test_start()
+    # test kill
+    # test_kill()
+    # test pid
+    # test_pid()
+    # test the visibility
+    # test_visible_get()
+    # Test set visibility
+    # test_visible_set()
+    # test open
+    # test_open('oops')
