@@ -1,0 +1,3 @@
+# Give credit to the below repos
+git@github.com:kalyanpi4/pySW.git
+git@github.com:Glutenberg/swtoolkit.git
