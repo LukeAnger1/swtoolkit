@@ -5,11 +5,11 @@ description = "A SolidWorks Toolkit for Python"
 license = "MIT"
 authors = ["Glutenberg <josh@colescanada.com>"]
 readme = "README.rst"
-repository = "https://github.com/Glutenberg/swtoolkit.git"
+repository = "git@github.com:LukeAnger1/swtoolkit.git"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pywin32 = "^300"
+pywin32 = "^306"
 psutil = "^5.8.0"
 
 [tool.poetry.dev-dependencies]
