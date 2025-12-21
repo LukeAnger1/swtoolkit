@@ -102,4 +102,5 @@ venv.bak/
 .pytype/
 
 # Cython debug symbols
-cython_debug/
+cython_debug/tic_tac_toe_data/
+training_data/
